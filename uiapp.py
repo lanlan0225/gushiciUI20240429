@@ -59,5 +59,5 @@ def main():
 
 if __name__ == '__main__':
     # 运行Streamlit应用
-    st.title("问答机器人")
+    st.title("古诗词问答机器人")
     main()
