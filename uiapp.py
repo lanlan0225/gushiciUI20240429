@@ -61,7 +61,7 @@ if __name__ == '__main__':
     # 运行Streamlit应用
     st.markdown(  
     f"""  
-    <p style="text-align:center;"><h1 style="font-size: 36px; font-weight: bold;">古诗词问答</h1></p>  
+    <h1 style="text-align: center; font-size: 36px; font-weight: bold;">古诗词问答</h1>
     """,  
     unsafe_allow_html=True,  
     )  
