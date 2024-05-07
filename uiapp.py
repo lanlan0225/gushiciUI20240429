@@ -59,5 +59,10 @@ def main():
 
 if __name__ == '__main__':
     # 运行Streamlit应用
-    st.title("古诗词问答机器人")
+    st.markdown(  
+    f"""  
+    <p style="text-align:center;">古诗词问答</p>  
+    """,  
+    unsafe_allow_html=True,  
+    )  
     main()
