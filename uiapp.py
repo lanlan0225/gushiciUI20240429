@@ -67,7 +67,7 @@ if __name__ == '__main__':
     f"""  
     <style>  
     body {  
-        background-color: #f0f0f0;  
+        background-color: #e9e1ba;  
     }  
     <h1 style="text-align: center; font-size: 36px; font-weight: bold;">古诗词问答</h1>
     </style> 
