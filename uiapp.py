@@ -44,17 +44,21 @@ def main():
     # 在Streamlit中创建输入字段
     user_input = st.text_input("请输入你想问的问题：")
 
-    # 如果用户输入了问题，则发送请求并显示回答
-    if user_input:
-        # 发送请求
-        response_data = make_request(access_token, user_input)
+    
+    st.write("回答：")
+    st.write("深山破屋苔已凝")
 
-        # 提取并显示回答
-        if "result" in response_data:
-            st.write("回答：")
-            st.write(response_data["result"])
-        else:
-            st.write("没有获取到回答。")
+    # # 如果用户输入了问题，则发送请求并显示回答
+    # if user_input:
+    #     # 发送请求
+    #     response_data = make_request(access_token, user_input)
+
+    #     # 提取并显示回答
+    #     if "result" in response_data:
+    #         st.write("回答：")
+    #         st.write(response_data["result"])
+    #     else:
+    #         st.write("没有获取到回答。")
 
 
 if __name__ == '__main__':
